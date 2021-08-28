@@ -1,0 +1,63 @@
+@import "../scss/settings/colors";
+
+@mixin icon {
+    height: 80px;
+    width: 60px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .white-part{
+    width: 100%;
+    height: 150px;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+      margin-top: 20px;
+      font-size: 1.5rem;
+    }
+    .white-bttn{
+      text-decoration: none;
+    }
+  }
+  
+  .grey-part{
+    width: 100%;
+    padding: 20px;
+    background-color: $color-white;
+    display: flex;
+    justify-content: center;
+    .step{
+      height: 200px;
+      width: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .icon1{
+        @include icon;
+        background-image: url("../assets/Shirt-Icon.png");
+      }
+      .icon2{
+        @include icon;
+        background-image: url("../assets/Bag-Icon.png");
+      }
+      .icon3{
+        @include icon;
+        background-image: url("../assets/Search-Icon.png");
+      }
+      .icon4{
+        @include icon;
+        background-image: url("../assets/Order-Icon.png");
+      }
+      hr{
+        margin: 5px 0;
+        width: 50%;
+        border-top: 1px solid $color-dark;
+      }
+      span{
+        text-align: center;
+    }
+  }
+}
