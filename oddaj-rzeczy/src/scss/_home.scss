@@ -1,0 +1,24 @@
+@import "../scss/settings/colors";
+@import "./homeHeader";
+
+.top-block{
+    height: 500px;
+    
+    .left-side-container{
+      display: inline-block;
+      width: 70%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      height: inherit;
+    }
+    
+    .right-side-container{
+      display: inline-block;
+      width: 50%;
+      height: inherit;
+  
+    }
+  }
+  
+ 

@@ -1,0 +1,32 @@
+@import "../scss/settings/colors";
+
+.header {
+  margin-top: 10px;
+  width:100%;
+    .buttons{
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+  .button-login, .button-register{
+    text-decoration: none;
+    color: $color-gray;
+    padding: 5px;
+    margin: 15px;
+  }
+    .button-login:hover,.button-register:hover {
+      border: 1px solid $color-yellow;
+    }
+   
+    a{
+      color: $color-gray;
+      padding: 5px 10px;
+      text-decoration: none;
+      margin: 5px;
+      margin-top: 10px;
+    }
+    a:hover{
+      border: 1px solid $color-gray;
+    }
+  }
