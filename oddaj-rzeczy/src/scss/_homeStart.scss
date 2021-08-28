@@ -1,0 +1,20 @@
+.top-block-bttns{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h2{
+      margin: 5px;
+      font-size: 1.3rem;
+      font-weight: normal;
+    }
+  
+    .bttns{
+      display: flex;
+    }
+    a{
+        text-decoration: none;
+    }
+  }

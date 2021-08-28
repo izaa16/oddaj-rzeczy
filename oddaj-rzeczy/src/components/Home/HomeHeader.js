@@ -13,7 +13,6 @@ const HomeHeader = () => {
                     <HomeNavigation />
                 </div>
             </div>
-
         </>
     )
 }
