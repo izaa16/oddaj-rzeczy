@@ -1,0 +1,24 @@
+.three-cols{
+    background-color: $color-yellow;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    color: $color-gray;
+  
+    div.col{
+      width: 30%;
+      text-align: center;
+      padding: 10px 0;
+      h1{
+        font-size: 4rem;
+        font-weight: lighter;
+        margin: 0;
+      }
+      span{
+        text-transform: uppercase;
+      }
+      p{
+        margin-top: 10px;
+      }
+    }
+  }
