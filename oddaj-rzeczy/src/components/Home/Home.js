@@ -3,6 +3,7 @@ import HomeHeader from './HomeHeader';
 import HomeStart from './HomeStart';
 import HomeInfo from './HomeInfo';
 import HomeSteps from './HomeSteps';
+import HomeAbout from './HomeAbout';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             </div>
             <HomeInfo />
             <HomeSteps />
+            <HomeAbout />
         </>
     )
 }
